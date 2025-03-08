@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: blanchedalmond;"> 
+    <center>
+    <header>
+        <h1>Our Photo Gallery</h1>
+    </header>
+
+    <div class="gallery-container">
+        <!-- Category links (filters) -->
+        <div class="category-links">
+            <button onclick="filterCategory('all')">All Photos</button>
+            <button onclick="filterCategory('MAHINDRATHAR')">MAHINDRATHAR</button>
+            <button onclick="filterCategory('LAMBORGHINI')">LAMBORGHINI</button>
+            <button onclick="filterCategory('AUDI')">AUDI</button>
+        </div>
+        <!-- Navigation buttons -->
+<div class="navigation-buttons">
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+</div>
+
+
+        <!-- Photo gallery section -->
+        <div class="photo-gallery">
+            <div class="photo-item MAHINDRATHAR">
+                <img src="image/thar  3.jpg "width="500px" height="500px" alt="Mahindra Thar 1">
+            </div>
+            <div class="photo-item MAHINDRATHAR">
+                <img src="image/thar 1.webp" width="500px" height="500px" alt="Mahindra Thar 2">
+            </div>
+            <div class="photo-item MAHINDRATHAR">
+                <img src="image/thar4.jpg" width="500px" height="500px" alt="Mahindra Thar 3">
+            </div>
+            <div class="photo-item MAHINDRATHAR">
+                <img src="image/thar 2.jpeg" width="500px" height="500px" alt="Mahindra Thar 4">
+            </div>
+            <div class="photo-item LAMBORGHINI">
+                <img src="image/lambo1.jpg" width="500px" height="500px" alt="Lamborghini 1">
+            </div>
+            <div class="photo-item LAMBORGHINI">
+                <img src="image/lambo3.webp" width="500px" height="500px" alt="Lamborghini 2">
+            </div>
+            <div class="photo-item LAMBORGHINI">
+                <img src="image/lambo1.jpg" width="500px" height="500px" alt="Lamborghini 4">
+            </div>
+            <div class="photo-item LAMBORGHINI">
+                <img src="image/lambo2.jpeg" width="500px" height="500px" alt="Lamborghini 5">
+            </div>
+            <div class="photo-item AUDI">
+                <img src="image/audi 1 - Copy.avif" width="500px" height="500px" alt="Audi 1">
+            </div>
+            <div class="photo-item AUDI">
+                <img src="image/audi 2.jpeg" width="500px" height="500px" alt="Audi 2">
+            </div>
+            <div class="photo-item LAMBORGHINI">
+                <img src="image/audi 3.avif" width="500px" height="500px" alt="Lamborghini 3">
+            </div>
+        </div>
+    </div>
+</center>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
